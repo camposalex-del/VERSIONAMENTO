@@ -1,0 +1,26 @@
+# Dependencias e ambientes virtuais
+venv/
+.venv/
+env/
+
+# Arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Variaveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Configuracoes locais
+config.local.json
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuracoes de editores
+.vscode/
+.idea/
