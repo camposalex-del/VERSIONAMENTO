@@ -1,0 +1,14 @@
+
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mostrar mensagem
+        run: echo "GitHub Actions executado com sucesso!"
